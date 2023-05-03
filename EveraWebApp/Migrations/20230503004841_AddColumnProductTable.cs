@@ -4,7 +4,7 @@
 
 namespace EveraWebApp.Migrations
 {
-    public partial class AddColorProductTable : Migration
+    public partial class AddColumnProductTable : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -42,7 +42,7 @@ namespace EveraWebApp.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Catagoryİd = table.Column<int>(type: "int", nullable: false),
+                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CatagoryId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

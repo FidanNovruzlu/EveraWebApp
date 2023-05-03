@@ -81,9 +81,6 @@ namespace EveraWebApp.Migrations
                     b.Property<int>("CatagoryId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Catagoryİd")
-                        .HasColumnType("int");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -91,6 +88,9 @@ namespace EveraWebApp.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

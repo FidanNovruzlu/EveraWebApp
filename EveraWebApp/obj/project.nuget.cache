@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RBJCvPWgfrAs6yfXzM8+8fVHgC6W8AXRTPHOGa9vyLdFiv+Wq9f9c4IuabEO7Po8G6edsHFdbGm3Gu90snRggA==",
+  "dgSpecHash": "KOmCNvpnYIlm6Rt2IpSGHlKadAr8LVgGcyTd6SBqEoyyVPAq/jsPbxCeDzJfTpOPqeVtaTdWeMzr+0Gf0YnkEg==",
   "success": true,
   "projectFilePath": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.16\\microsoft.entityframeworkcore.design.6.0.16.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.16\\microsoft.entityframeworkcore.relational.6.0.16.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.16\\microsoft.entityframeworkcore.sqlserver.6.0.16.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.16\\microsoft.entityframeworkcore.tools.6.0.16.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

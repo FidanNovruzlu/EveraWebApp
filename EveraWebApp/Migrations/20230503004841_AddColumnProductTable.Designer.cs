@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EveraWebApp.Migrations
 {
     [DbContext(typeof(EveraDbContext))]
-    [Migration("20230502072250_AddColorProductTable")]
-    partial class AddColorProductTable
+    [Migration("20230503004841_AddColumnProductTable")]
+    partial class AddColumnProductTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -83,9 +83,6 @@ namespace EveraWebApp.Migrations
                     b.Property<int>("CatagoryId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Catagoryİd")
-                        .HasColumnType("int");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -93,6 +90,9 @@ namespace EveraWebApp.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
