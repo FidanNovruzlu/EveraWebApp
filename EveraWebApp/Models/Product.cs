@@ -8,6 +8,6 @@
         public decimal Price { get; set; } = 0;
         public int CatagoryId { get; set;}
         public Catagory Catagory { get; set; }
-        public List<Color> Colors { get; set;}
+        public ICollection<Color> Colors { get; set;}
     }
 }

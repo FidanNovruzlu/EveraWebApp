@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\desktop\programs\C#\ASP.NET Core\EveraWebApp\EveraWebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/desktop/programs/C\#/ASP.NET Core/EveraWebApp/EveraWebApp/Areas/Admin/Views/Catagory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0YWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/desktop/programs/C\#/ASP.NET Core/EveraWebApp/EveraWebApp/Areas/Admin/Views/Catagory/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0YWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
