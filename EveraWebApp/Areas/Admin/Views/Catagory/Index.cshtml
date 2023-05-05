@@ -36,13 +36,17 @@
                                 <tr>
                                     <td>@(++Count)</td>
                                     <td> @item.Name</td>
-                                    <td>
-                                        <a  asp-controller="Catagory" asp-action="Details" asp-route-id="@item.Id" ><button class="btn btn-info">Details</button></a>
-                                        <a><button class="btn btn-warning">Edit</button></a>
-                                        <form method="post" asp-action="Delete" asp-route-id="@item.Id">
-                                            <button type="submit" class="btn btn-danger">Delete</button>
-                                        </form>
-                                    </td>
+                                      <td>
+                                        <div class="container d-flex justify-content-around">
+                                                <a asp-controller="Catagory" asp-action="Details" asp-route-id="@item.Id" ><button class="btn btn-info">Details</button></a>
+                                                <form asp-action="Update" asp-route-id="@item.Id">
+                                                    <a><button class="btn btn-warning">Edit</button></a>
+                                                </form>
+                                                <form method="post" asp-action="Delete" asp-route-id="@item.Id">
+                                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                                </form>
+                                        </div>
+                                      </td>
                                 </tr>
                         }
                         </tbody>
