@@ -13,5 +13,7 @@ namespace EveraWebApp.DataContext
         public DbSet<Color> Colors { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Catagory > Catagories { get; set; }
+        public DbSet<Popular> Populars { get; set; }
+        public DbSet<Brand> Brands { get; set; }
     }
 }

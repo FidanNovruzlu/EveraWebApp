@@ -1,0 +1,14 @@
+﻿@model Brand
+
+<div>
+<h1>Brand Create</h1>
+    <form class="container p-5" method="post" enctype="multipart/form-data">
+        
+         <div class="form-group">
+            <label asp-for="Image"></label>
+            <input asp-for="Image" class="form-control" id="exampleInputPassword1">
+            <span class="text-danger" asp-validation-for="Image"></span>
+         </div>
+         <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

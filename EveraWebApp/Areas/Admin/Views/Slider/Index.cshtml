@@ -7,11 +7,8 @@
     <div class="container-fluid">
 
         <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Sliders</h1>
-        <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-            For more information about DataTables, please visit the <a target="_blank"
-                href="https://datatables.net">official DataTables documentation</a>.</p>
-
+        <h1 class="h3 mb-2 text-danger text-center">Sliders</h1>
+ 
         <!-- DataTales Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex justify-content-between">
@@ -26,6 +23,7 @@
                         <thead>
                             <tr>
                                 <th>№</th>
+                                <th>Image</th>
                                 <th>Title</th>
                                 <th>Description</th>
                                 <th>Settings</th>
@@ -36,12 +34,13 @@
                             {
                                     <tr>
                                         <td>@(++Count)</td>
+                                            <td><img style="width:200px;" src="~/assets/imgs/slider/@item.ImageName" /></td>
                                         <td> @item.Title</td>
                                         <td>@item.Description</td>
                                           <td>
                                             <div class="container d-flex justify-content-around">
                                                     <a asp-controller="Slider" asp-action="Read" asp-route-id="@item.Id" ><button class="btn btn-info">Details</button></a>
-                                                    <form asp-controller="Slider" asp-action="Update" asp-route-id="@item.Id">
+                                                    <form asp-controller="Slider" asp-action="Update" asp-route-id="@item.Id" method="get">
                                                         <a><button class="btn btn-warning">Edit</button></a>
                                                     </form>
                                                     <form asp-controller="Slider" method="post" asp-action="Delete" asp-route-id="@item.Id">

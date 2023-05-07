@@ -13,8 +13,6 @@ namespace EveraWebApp.Areas.Admin.Controllers
         {
             _everaDbContext=everaDbContext;
         }
-      
-       
         public async Task<IActionResult> Index()
         {
             List<Catagory> catagories = await _everaDbContext.Catagories.ToListAsync();
@@ -64,8 +62,6 @@ namespace EveraWebApp.Areas.Admin.Controllers
             await _everaDbContext.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(int id)
         {
             Catagory? category = await _everaDbContext.Catagories.FindAsync(id);
