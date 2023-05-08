@@ -33,8 +33,8 @@
                             {
                                 <tr>
                                     <td>@(++Count)</td>
-                                        <td><img style="width:200px;" src="~/assets/imgs/slider/@item.ImageName" /></td>
                                     <td> @item.Title</td>
+                                    <td><img style="width:200px;" src="~/assets/imgs/banner/@item.ImageName" /></td>
                                         <td>
                                         <div class="container d-flex justify-content-around">
                                                     <a asp-controller="Popular" asp-action="Read" asp-route-id="@item.Id" ><button class="btn btn-info">Details</button></a>

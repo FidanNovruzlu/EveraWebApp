@@ -7,8 +7,7 @@ namespace EveraWebApp.Models
         public int Id { get; set; }
         public string Title { get; set; } = null!;
         public string? ImageName { get; set; }
-       // public ICollection<Product>? Products { get; set; }
-
+       
         [NotMapped]
         public IFormFile Image { get; set; } = null!;
     }

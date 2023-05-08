@@ -77,5 +77,27 @@ namespace EveraWebApp.Areas.Admin.Controllers
             if (popular == null) return NotFound();
             return View(popular);
         }
+        public async Task<IActionResult> Update(int id)
+        {
+            Popular? popular = await _everaDbContext.Populars.FindAsync(id);
+            if (popular == null) return NotFound();
+            return View(popular);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(int id, Popular newPopular)
+        {
+            Popular? popular= await _everaDbContext.Populars.AsNoTracking().Where(p=>p.Id== id).FirstOrDefaultAsync();
+            if (popular == null) return NotFound();
+            if(!ModelState.IsValid)
+            {
+                newPopular.ImageName = popular.ImageName;
+                return View(newPopular);
+            }
+            newPopular.ImageName=popular.ImageName;
+            _everaDbContext.Populars.Update(newPopular);
+            await _everaDbContext.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

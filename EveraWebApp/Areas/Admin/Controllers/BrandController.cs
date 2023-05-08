@@ -58,7 +58,9 @@ namespace EveraWebApp.Areas.Admin.Controllers
             {
                 await brand.Image.CopyToAsync(fileStream);
             }
+
             brand.ImageName = newFilename;
+
             await _everaDbContext.Brands.AddAsync(brand);
             await _everaDbContext.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -74,6 +76,22 @@ namespace EveraWebApp.Areas.Admin.Controllers
             Brand? brand = await _everaDbContext.Brands.FindAsync(id);
             if (brand == null) return NotFound();
             return View(brand);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(int id,Brand newBrand)
+        {
+            Brand? brand = await _everaDbContext.Brands.AsNoTracking().Where(b=>b.Id== id).FirstOrDefaultAsync();
+            if (brand == null) return NotFound();
+            if(!ModelState.IsValid)
+            {
+                newBrand.ImageName=brand.ImageName;
+                return View(newBrand);
+            }
+            newBrand.ImageName = brand.ImageName;
+             _everaDbContext.Brands.Update(newBrand);
+            await _everaDbContext.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
