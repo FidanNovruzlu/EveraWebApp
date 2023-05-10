@@ -87,6 +87,28 @@ namespace EveraWebApp.Migrations
                     b.ToTable("Colors");
                 });
 
+            modelBuilder.Entity("EveraWebApp.Models.Image", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("ImageName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("Images");
+                });
+
             modelBuilder.Entity("EveraWebApp.Models.Popular", b =>
                 {
                     b.Property<int>("Id")
@@ -148,6 +170,7 @@ namespace EveraWebApp.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImageName")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
@@ -175,6 +198,17 @@ namespace EveraWebApp.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("EveraWebApp.Models.Image", b =>
+                {
+                    b.HasOne("EveraWebApp.Models.Product", "Product")
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("EveraWebApp.Models.Product", b =>
                 {
                     b.HasOne("EveraWebApp.Models.Catagory", "Catagory")
@@ -189,6 +223,11 @@ namespace EveraWebApp.Migrations
             modelBuilder.Entity("EveraWebApp.Models.Catagory", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("EveraWebApp.Models.Product", b =>
+                {
+                    b.Navigation("Images");
                 });
 #pragma warning restore 612, 618
         }

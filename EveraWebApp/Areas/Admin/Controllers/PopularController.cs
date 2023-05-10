@@ -20,6 +20,7 @@ namespace EveraWebApp.Areas.Admin.Controllers
         public async Task<IActionResult> Index()
         {
             List<Popular> populars =  await _everaDbContext.Populars.ToListAsync();
+           
             return View(populars);
         }
 
@@ -56,6 +57,10 @@ namespace EveraWebApp.Areas.Admin.Controllers
                 ModelState.AddModelError("Title", "Already title exist!");
                 return View();
             }
+            if (popular.Image == null)
+            {
+                ModelState.AddModelError("Image", "Image is null");
+            }
 
             string guid=Guid.NewGuid().ToString();
             string newFilename = guid + popular.Image.FileName;
@@ -88,13 +93,21 @@ namespace EveraWebApp.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int id, Popular newPopular)
         {
             Popular? popular= await _everaDbContext.Populars.AsNoTracking().Where(p=>p.Id== id).FirstOrDefaultAsync();
+
             if (popular == null) return NotFound();
-            if(!ModelState.IsValid)
+            if (ModelState["Title"].Errors.Any()) return View(newPopular);
+
+            if(newPopular.Image != null)
             {
-                newPopular.ImageName = popular.ImageName;
-                return View(newPopular);
+                string path = Path.Combine(_environment.WebRootPath, "assets", "imgs", "shop", popular.ImageName);
+                using(FileStream fileStream=new FileStream(path, FileMode.Create))
+                {
+                    await newPopular.Image.CopyToAsync(fileStream);
+                }
+                 newPopular.ImageName = popular.ImageName;
             }
-            newPopular.ImageName=popular.ImageName;
+            else  newPopular.ImageName=popular.ImageName;
+
             _everaDbContext.Populars.Update(newPopular);
             await _everaDbContext.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

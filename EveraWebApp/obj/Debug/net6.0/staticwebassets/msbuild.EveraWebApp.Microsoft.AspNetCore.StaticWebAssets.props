@@ -30096,6 +30096,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\1cb5d641-4870-4495-8ff9-4ad0e87e69e03afe10863d096a6bcc73ccfed69d4f39.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\5a38c8d4-f646-4cba-96c5-48db0bf511ba3afe10863d096a6bcc73ccfed69d4f39.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/banner/5a38c8d4-f646-4cba-96c5-48db0bf511ba3afe10863d096a6bcc73ccfed69d4f39.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\5a38c8d4-f646-4cba-96c5-48db0bf511ba3afe10863d096a6bcc73ccfed69d4f39.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\5e8c220c-e0ab-4f10-bbbd-f53850d724942fd00fb41941fb99607d30ef1014b9d6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/banner/5e8c220c-e0ab-4f10-bbbd-f53850d724942fd00fb41941fb99607d30ef1014b9d6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\5e8c220c-e0ab-4f10-bbbd-f53850d724942fd00fb41941fb99607d30ef1014b9d6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\7b34764f-de6c-4a08-b795-dad13ae1c2f138b922a42574ac33367a93bf0cc683a1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EveraWebApp</SourceId>
@@ -30111,6 +30143,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\7b34764f-de6c-4a08-b795-dad13ae1c2f138b922a42574ac33367a93bf0cc683a1.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\a0815d3d-f4fa-42f2-84c0-285fd9cbe0253afe10863d096a6bcc73ccfed69d4f39.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/banner/a0815d3d-f4fa-42f2-84c0-285fd9cbe0253afe10863d096a6bcc73ccfed69d4f39.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\a0815d3d-f4fa-42f2-84c0-285fd9cbe0253afe10863d096a6bcc73ccfed69d4f39.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\a9931a8f-7c56-4e8b-a06c-243e09a8eec0globalpostalnetworkweb.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/banner/a9931a8f-7c56-4e8b-a06c-243e09a8eec0globalpostalnetworkweb.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\a9931a8f-7c56-4e8b-a06c-243e09a8eec0globalpostalnetworkweb.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\banner\banner-1.png))">
       <SourceType>Package</SourceType>
@@ -30912,6 +30976,182 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\page\img-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\15061fe4-86c2-49ee-9f58-9a5da59b01e0WhatsApp Image 2022-04-19 at 19.01.17.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/15061fe4-86c2-49ee-9f58-9a5da59b01e0WhatsApp Image 2022-04-19 at 19.01.17.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\15061fe4-86c2-49ee-9f58-9a5da59b01e0WhatsApp Image 2022-04-19 at 19.01.17.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\1c001448-4562-49e0-9fb4-02762fa2a5862fd00fb41941fb99607d30ef1014b9d6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/1c001448-4562-49e0-9fb4-02762fa2a5862fd00fb41941fb99607d30ef1014b9d6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\1c001448-4562-49e0-9fb4-02762fa2a5862fd00fb41941fb99607d30ef1014b9d6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\3821d995-d725-461e-9c5e-518a7663e422Warm City 05 Globe.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/3821d995-d725-461e-9c5e-518a7663e422Warm City 05 Globe.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\3821d995-d725-461e-9c5e-518a7663e422Warm City 05 Globe.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\3d48f7ef-2be2-44d3-8293-3e1486d919dc3afe10863d096a6bcc73ccfed69d4f39.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/3d48f7ef-2be2-44d3-8293-3e1486d919dc3afe10863d096a6bcc73ccfed69d4f39.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\3d48f7ef-2be2-44d3-8293-3e1486d919dc3afe10863d096a6bcc73ccfed69d4f39.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\5cca8080-4288-4670-933e-644e1f8dfc85f5a6cb847415ba91c854c1c90732fe53.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/5cca8080-4288-4670-933e-644e1f8dfc85f5a6cb847415ba91c854c1c90732fe53.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\5cca8080-4288-4670-933e-644e1f8dfc85f5a6cb847415ba91c854c1c90732fe53.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\67a9dbc3-3dfa-4dad-85b2-c13e3585cae32fd00fb41941fb99607d30ef1014b9d6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/67a9dbc3-3dfa-4dad-85b2-c13e3585cae32fd00fb41941fb99607d30ef1014b9d6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\67a9dbc3-3dfa-4dad-85b2-c13e3585cae32fd00fb41941fb99607d30ef1014b9d6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\69ed9572-dd08-49f4-8708-a373e8890e010ee0fa133f8cff513ac34c1f5110df58.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/69ed9572-dd08-49f4-8708-a373e8890e010ee0fa133f8cff513ac34c1f5110df58.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\69ed9572-dd08-49f4-8708-a373e8890e010ee0fa133f8cff513ac34c1f5110df58.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\9139487a-b49a-4283-93bf-b931c9e9e7333afe10863d096a6bcc73ccfed69d4f39.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/9139487a-b49a-4283-93bf-b931c9e9e7333afe10863d096a6bcc73ccfed69d4f39.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\9139487a-b49a-4283-93bf-b931c9e9e7333afe10863d096a6bcc73ccfed69d4f39.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\9a3a998c-ebf5-4cc0-957c-8bdbd05d14b80ee0fa133f8cff513ac34c1f5110df58.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/9a3a998c-ebf5-4cc0-957c-8bdbd05d14b80ee0fa133f8cff513ac34c1f5110df58.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\9a3a998c-ebf5-4cc0-957c-8bdbd05d14b80ee0fa133f8cff513ac34c1f5110df58.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\9c88d848-d76a-443d-af4f-f57d315327482fd00fb41941fb99607d30ef1014b9d6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/9c88d848-d76a-443d-af4f-f57d315327482fd00fb41941fb99607d30ef1014b9d6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\9c88d848-d76a-443d-af4f-f57d315327482fd00fb41941fb99607d30ef1014b9d6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\9e5d56ec-b907-48b4-b9c2-20f1afdee2cb81e833b8aaff0f1c61b2b1379c4c276f.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/9e5d56ec-b907-48b4-b9c2-20f1afdee2cb81e833b8aaff0f1c61b2b1379c4c276f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\9e5d56ec-b907-48b4-b9c2-20f1afdee2cb81e833b8aaff0f1c61b2b1379c4c276f.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\a028c9ec-39b4-4dcb-87e0-400c6835f4bf18e2db3a3220fadf3c655a1c0e34d398.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EveraWebApp</SourceId>
@@ -30943,6 +31183,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\a0d23cb7-a3c2-4485-9597-29f8111beb35feelsbadman-pepe-meme-memes-wallpaper-preview.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\a2051027-b8d6-41ed-8c2d-e4a4bd8496d92fd00fb41941fb99607d30ef1014b9d6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/a2051027-b8d6-41ed-8c2d-e4a4bd8496d92fd00fb41941fb99607d30ef1014b9d6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\a2051027-b8d6-41ed-8c2d-e4a4bd8496d92fd00fb41941fb99607d30ef1014b9d6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\b06f6df4-5789-4f39-958e-d2b6cc1b2dd60ee0fa133f8cff513ac34c1f5110df58.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/b06f6df4-5789-4f39-958e-d2b6cc1b2dd60ee0fa133f8cff513ac34c1f5110df58.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\b06f6df4-5789-4f39-958e-d2b6cc1b2dd60ee0fa133f8cff513ac34c1f5110df58.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\b10cce98-d983-4f58-8f68-3ade5eedf0ad0ee0fa133f8cff513ac34c1f5110df58.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/b10cce98-d983-4f58-8f68-3ade5eedf0ad0ee0fa133f8cff513ac34c1f5110df58.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\b10cce98-d983-4f58-8f68-3ade5eedf0ad0ee0fa133f8cff513ac34c1f5110df58.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\category-thumb-1.jpg))">
       <SourceType>Package</SourceType>
@@ -31071,6 +31359,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\category-thumb-8.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\cf78aa53-329b-4ca9-a4c2-92888313b3c52fd00fb41941fb99607d30ef1014b9d6.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/cf78aa53-329b-4ca9-a4c2-92888313b3c52fd00fb41941fb99607d30ef1014b9d6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\cf78aa53-329b-4ca9-a4c2-92888313b3c52fd00fb41941fb99607d30ef1014b9d6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\f3932a94-eb84-4d6e-a15a-afff87687dbe3afe10863d096a6bcc73ccfed69d4f39.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/f3932a94-eb84-4d6e-a15a-afff87687dbe3afe10863d096a6bcc73ccfed69d4f39.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\f3932a94-eb84-4d6e-a15a-afff87687dbe3afe10863d096a6bcc73ccfed69d4f39.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\f6da35be-4546-426a-b416-cacad1b6f39a0ee0fa133f8cff513ac34c1f5110df58.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>EveraWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/EveraWebApp</BasePath>
+      <RelativePath>assets/imgs/shop/f6da35be-4546-426a-b416-cacad1b6f39a0ee0fa133f8cff513ac34c1f5110df58.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\f6da35be-4546-426a-b416-cacad1b6f39a0ee0fa133f8cff513ac34c1f5110df58.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\fb59f655-b0a4-4771-9832-56d567a352a43c92dfe3b2870694d5e79be09745d374.jpg))">
       <SourceType>Package</SourceType>
@@ -31824,12 +32160,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\shop\thumbnail-9.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\13d693e5-c512-4ed4-919c-0ffe9d6a8b4081e833b8aaff0f1c61b2b1379c4c276f.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\248d217f-0acb-4e9a-9599-2bc1f8066b6087bc94156ef7f04d3129a75d25c49dbe.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EveraWebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EveraWebApp</BasePath>
-      <RelativePath>assets/imgs/slider/13d693e5-c512-4ed4-919c-0ffe9d6a8b4081e833b8aaff0f1c61b2b1379c4c276f.png</RelativePath>
+      <RelativePath>assets/imgs/slider/248d217f-0acb-4e9a-9599-2bc1f8066b6087bc94156ef7f04d3129a75d25c49dbe.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31838,14 +32174,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\13d693e5-c512-4ed4-919c-0ffe9d6a8b4081e833b8aaff0f1c61b2b1379c4c276f.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\248d217f-0acb-4e9a-9599-2bc1f8066b6087bc94156ef7f04d3129a75d25c49dbe.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\1ebbab24-df51-4222-b330-4e733b1f320c2fd00fb41941fb99607d30ef1014b9d6.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\29b6b771-f5b0-4891-a4bb-700c9ac7844cfeelsbadman-pepe-meme-memes-wallpaper-preview.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>EveraWebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EveraWebApp</BasePath>
-      <RelativePath>assets/imgs/slider/1ebbab24-df51-4222-b330-4e733b1f320c2fd00fb41941fb99607d30ef1014b9d6.jpg</RelativePath>
+      <RelativePath>assets/imgs/slider/29b6b771-f5b0-4891-a4bb-700c9ac7844cfeelsbadman-pepe-meme-memes-wallpaper-preview.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31854,14 +32190,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\1ebbab24-df51-4222-b330-4e733b1f320c2fd00fb41941fb99607d30ef1014b9d6.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\29b6b771-f5b0-4891-a4bb-700c9ac7844cfeelsbadman-pepe-meme-memes-wallpaper-preview.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\393dc7e0-733e-4a52-8a67-0e748ac66f4010c1b80e-a8d0-4ac2-8dd0-308af1866a66.jfif))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\d2b8a677-dd45-4856-923e-cc6632464322cb3c3700260b474c6dc256b3478222b9.png))">
       <SourceType>Package</SourceType>
       <SourceId>EveraWebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/EveraWebApp</BasePath>
-      <RelativePath>assets/imgs/slider/393dc7e0-733e-4a52-8a67-0e748ac66f4010c1b80e-a8d0-4ac2-8dd0-308af1866a66.jfif</RelativePath>
+      <RelativePath>assets/imgs/slider/d2b8a677-dd45-4856-923e-cc6632464322cb3c3700260b474c6dc256b3478222b9.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -31870,71 +32206,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\393dc7e0-733e-4a52-8a67-0e748ac66f4010c1b80e-a8d0-4ac2-8dd0-308af1866a66.jfif))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\9dbb5e5e-a4d9-468b-ba15-f6467639149bwallpaperflare.com_wallpaper.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EveraWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EveraWebApp</BasePath>
-      <RelativePath>assets/imgs/slider/9dbb5e5e-a4d9-468b-ba15-f6467639149bwallpaperflare.com_wallpaper.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\9dbb5e5e-a4d9-468b-ba15-f6467639149bwallpaperflare.com_wallpaper.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\b20cc4ab-1b96-453d-bc2c-dcb4994175627911dd6d9faa0bf1066f97076f97dd88.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EveraWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EveraWebApp</BasePath>
-      <RelativePath>assets/imgs/slider/b20cc4ab-1b96-453d-bc2c-dcb4994175627911dd6d9faa0bf1066f97076f97dd88.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\b20cc4ab-1b96-453d-bc2c-dcb4994175627911dd6d9faa0bf1066f97076f97dd88.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\e3e4bf69-0a84-4fdc-a352-343ef7b73cd83c92dfe3b2870694d5e79be09745d374.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EveraWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EveraWebApp</BasePath>
-      <RelativePath>assets/imgs/slider/e3e4bf69-0a84-4fdc-a352-343ef7b73cd83c92dfe3b2870694d5e79be09745d374.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\e3e4bf69-0a84-4fdc-a352-343ef7b73cd83c92dfe3b2870694d5e79be09745d374.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\f7370d93-31e8-4e38-b71a-4138a7b847800ee0fa133f8cff513ac34c1f5110df58.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>EveraWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/EveraWebApp</BasePath>
-      <RelativePath>assets/imgs/slider/f7370d93-31e8-4e38-b71a-4138a7b847800ee0fa133f8cff513ac34c1f5110df58.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\f7370d93-31e8-4e38-b71a-4138a7b847800ee0fa133f8cff513ac34c1f5110df58.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\d2b8a677-dd45-4856-923e-cc6632464322cb3c3700260b474c6dc256b3478222b9.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\imgs\slider\slider-1.png))">
       <SourceType>Package</SourceType>

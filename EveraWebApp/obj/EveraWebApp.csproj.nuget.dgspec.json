@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\desktop\\programs\\C#\\ASP.NET Core\\Evera_Web\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj": {}
+    "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj": {}
   },
   "projects": {
-    "D:\\desktop\\programs\\C#\\ASP.NET Core\\Evera_Web\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj": {
+    "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\desktop\\programs\\C#\\ASP.NET Core\\Evera_Web\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
+        "projectUniqueName": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
         "projectName": "EveraWebApp",
-        "projectPath": "D:\\desktop\\programs\\C#\\ASP.NET Core\\Evera_Web\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
+        "projectPath": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\desktop\\programs\\C#\\ASP.NET Core\\Evera_Web\\EveraWebApp\\EveraWebApp\\obj\\",
+        "outputPath": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

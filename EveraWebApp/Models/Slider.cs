@@ -9,8 +9,7 @@ namespace EveraWebApp.Models
         [Required,MaxLength(100)]
         public string Title { get; set; } = null!;
         public string? Description { get; set; }
-        public string? ImageName { get; set; }
-        [NotMapped]
-        public IFormFile Image { get; set; }=null!;
+        public string ImageName { get; set; }=null!;
+      
     }
 }

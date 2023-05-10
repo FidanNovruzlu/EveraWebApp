@@ -82,13 +82,22 @@ namespace EveraWebApp.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int id,Brand newBrand)
         {
             Brand? brand = await _everaDbContext.Brands.AsNoTracking().Where(b=>b.Id== id).FirstOrDefaultAsync();
+
             if (brand == null) return NotFound();
-            if(!ModelState.IsValid)
+            if(!ModelState.IsValid)  return View(newBrand);
+            if (newBrand != null)
             {
-                newBrand.ImageName=brand.ImageName;
-                return View(newBrand);
+                string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "imgs", "banner", newBrand.ImageName);
+                using (FileStream fileStream = new FileStream(path, FileMode.Create))
+                {
+                    await newBrand.Image.CopyToAsync(fileStream);
+                }
+                newBrand.ImageName = brand.ImageName;
             }
-            newBrand.ImageName = brand.ImageName;
+            else newBrand.ImageName = brand.ImageName;
+
+            newBrand.Id=brand.Id;
+
              _everaDbContext.Brands.Update(newBrand);
             await _everaDbContext.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

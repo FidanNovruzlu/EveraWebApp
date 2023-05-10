@@ -20,13 +20,15 @@ namespace EveraWebApp.Controllers
         {
             List<Slider> sliders= await _dbContext.Sliders.ToListAsync();
             List<Product> products = await _dbContext.Products.Include(c => c.Catagory).ToListAsync();
-           // List<Popular> populars = await _dbContext.Populars.Include(p => p.Products).ToListAsync();
+            List<Popular> populars= await _dbContext.Populars.ToListAsync();
+            List<Brand> brands = await _dbContext.Brands.ToListAsync();
 
             HomeVM homeVM = new HomeVM()
             {
                 Products=products,
                 Sliders=sliders,
-              //  Populars=populars
+               Populars=populars,
+               Brands=brands
             };
 
             return View(homeVM);
