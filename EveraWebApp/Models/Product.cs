@@ -9,6 +9,6 @@
         public int CatagoryId { get; set;}
         public Catagory Catagory { get; set; }
         public ICollection<Color> Colors { get; set;}
-        public ICollection<Image> Images { get;set;}
+        public List<Image> Images { get;set;}
     }
 }

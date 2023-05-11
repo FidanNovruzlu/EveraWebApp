@@ -19,7 +19,7 @@ namespace EveraWebApp.Controllers
         public async Task<IActionResult> Index()
         {
             List<Slider> sliders= await _dbContext.Sliders.ToListAsync();
-            List<Product> products = await _dbContext.Products.Include(c => c.Catagory).ToListAsync();
+            List<Product> products = await _dbContext.Products.Include(c => c.Catagory).Include(c=>c.Images).ToListAsync();
             List<Popular> populars= await _dbContext.Populars.ToListAsync();
             List<Brand> brands = await _dbContext.Brands.ToListAsync();
 

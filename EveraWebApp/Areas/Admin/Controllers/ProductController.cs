@@ -3,6 +3,7 @@ using EveraWebApp.Models;
 using EveraWebApp.ViewModels.ProductVM;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Update.Internal;
 
 namespace EveraWebApp.Areas.Admin.Controllers
 {
@@ -20,7 +21,7 @@ namespace EveraWebApp.Areas.Admin.Controllers
         {
             List<Product> products = await _everaDbContext.Products.Include(p=>p.Images).ToListAsync();
             List<GetProductVM> getProductVMs = new List<GetProductVM>();
-            foreach (var product in products)
+            foreach (Product product in products)
             {
                 
                 getProductVMs.Add(new GetProductVM()
@@ -49,6 +50,10 @@ namespace EveraWebApp.Areas.Admin.Controllers
             {
                 ViewData["catagories"] = catagories;
                 return View();
+            }
+            else
+            {
+                ViewData["catagories"] = catagories;
             }
             Product product=new Product()
             {
@@ -79,7 +84,7 @@ namespace EveraWebApp.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Read(int id)
         {
-            Product? product = await _everaDbContext.Products.Include(p => p.Images).FirstOrDefaultAsync(p => p.Id == id);
+            Product? product = await _everaDbContext.Products.Include(p=>p.Catagory).Include(p => p.Images).FirstOrDefaultAsync(p => p.Id == id);
             if (product == null)
             {
                 return NotFound();
@@ -90,7 +95,7 @@ namespace EveraWebApp.Areas.Admin.Controllers
                 Name = product.Name,
                 Price = product.Price,
                 Description = product.Description,
-                ImageName= product.Images.FirstOrDefault().ImageName
+                Images = product.Images.ToList()
             };
             return View(detailProductVM);
         }
@@ -99,15 +104,77 @@ namespace EveraWebApp.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            Product product = await _everaDbContext.Products.FindAsync(id);
+            Product product = await _everaDbContext.Products.FirstOrDefaultAsync(p=>p.Id==id);
             if (product == null)
             {
                 return NotFound();
+            }
+            foreach(var item in _everaDbContext.Images.Where(x=>x.ProductId==id).ToList())
+            {
+                _everaDbContext.Images.Remove(item);
             }
             _everaDbContext.Products.Remove(product);
             await _everaDbContext.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        public async  Task<IActionResult> Update(int id)
+        {
+            Product? product= await _everaDbContext.Products.Include(c=>c.Catagory).Include(i=>i.Images).FirstOrDefaultAsync(p=>p.Id==id);
+            UpdateProductVM updateProductVM=new UpdateProductVM()
+            {
+                Id=product.Id,
+                Name=product.Name,
+                Description=product.Description,
+                Price=product.Price,
+                CatagoryId=product.CatagoryId,
+               OldImages = product.Images
+            };
+            List<Catagory> catagories =await _everaDbContext.Catagories.ToListAsync();
+            ViewData["catagories"]=catagories;
+            return View(updateProductVM);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int id,UpdateProductVM updateProductVM)
+        {
+            Product? product= await _everaDbContext.Products.Include(c=>c.Catagory).Include(i=>i.Images).FirstOrDefaultAsync(p=>p.Id==id);
+            foreach(var item in product.Images)
+            {
+                _everaDbContext.Images.Remove(item);
+            }
+            List<Catagory> catagories= await _everaDbContext.Catagories.ToListAsync();
+            if(!ModelState.IsValid)
+            {
+                ViewData["catagories"] = catagories;
+                return View();
+            }
+            foreach(IFormFile item in updateProductVM.Images)
+            {
+                string guid=Guid.NewGuid().ToString();
+                string newFilename = guid + item.FileName;
+            }
+            List<Image> images = new List<Image>();
+            foreach(IFormFile item in updateProductVM.Images)
+            {
+                string guid= Guid.NewGuid().ToString();
+                string newFilename = guid + item.FileName;
+                string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "imgs", "shop", newFilename);
+                using(FileStream fileStream=new FileStream(path, FileMode.Create))
+                {
+                    await item.CopyToAsync(fileStream);
+                }
+                images.Add(new Image(){
+                    ImageName= newFilename
+                });
+            }
+            product.Images= images;
+            product.Description = updateProductVM.Description;
+            product.Name = updateProductVM.Name;
+            product.Price = updateProductVM.Price;
+            product.CatagoryId= updateProductVM.CatagoryId;
 
+            _everaDbContext.Products.Update(product);
+            await _everaDbContext.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

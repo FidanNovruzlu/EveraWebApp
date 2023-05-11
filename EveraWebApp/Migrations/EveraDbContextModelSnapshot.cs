@@ -33,7 +33,7 @@ namespace EveraWebApp.Migrations
 
                     b.HasIndex("ProductsId");
 
-                    b.ToTable("ColorProduct");
+                    b.ToTable("ColorProduct", (string)null);
                 });
 
             modelBuilder.Entity("EveraWebApp.Models.Brand", b =>
@@ -49,7 +49,7 @@ namespace EveraWebApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brands");
+                    b.ToTable("Brands", (string)null);
                 });
 
             modelBuilder.Entity("EveraWebApp.Models.Catagory", b =>
@@ -67,7 +67,7 @@ namespace EveraWebApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Catagories");
+                    b.ToTable("Catagories", (string)null);
                 });
 
             modelBuilder.Entity("EveraWebApp.Models.Color", b =>
@@ -84,7 +84,7 @@ namespace EveraWebApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Colors");
+                    b.ToTable("Colors", (string)null);
                 });
 
             modelBuilder.Entity("EveraWebApp.Models.Image", b =>
@@ -106,7 +106,7 @@ namespace EveraWebApp.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("Images");
+                    b.ToTable("Images", (string)null);
                 });
 
             modelBuilder.Entity("EveraWebApp.Models.Popular", b =>
@@ -126,7 +126,7 @@ namespace EveraWebApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Populars");
+                    b.ToTable("Populars", (string)null);
                 });
 
             modelBuilder.Entity("EveraWebApp.Models.Product", b =>
@@ -155,7 +155,7 @@ namespace EveraWebApp.Migrations
 
                     b.HasIndex("CatagoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("EveraWebApp.Models.Slider", b =>
@@ -180,7 +180,7 @@ namespace EveraWebApp.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders");
+                    b.ToTable("Sliders", (string)null);
                 });
 
             modelBuilder.Entity("ColorProduct", b =>
