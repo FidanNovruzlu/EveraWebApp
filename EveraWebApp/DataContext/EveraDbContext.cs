@@ -16,5 +16,6 @@ namespace EveraWebApp.DataContext
         public DbSet<Popular> Populars { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Image> Images { get; set; }
+        public DbSet<Setting> Settings { get; set; }    
     }
 }

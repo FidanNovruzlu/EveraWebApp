@@ -81,10 +81,8 @@ namespace EveraWebApp.Areas.Admin.Controllers
         public async Task<IActionResult> Read(int id)
         {
             Product? product = await _everaDbContext.Products.Include(p=>p.Catagory).Include(p => p.Images).FirstOrDefaultAsync(p => p.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
+            if (product == null)  return NotFound();
+            
             ReadProductVM detailProductVM = new ReadProductVM()
             {
                 Id = product.Id,
@@ -100,11 +98,9 @@ namespace EveraWebApp.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            Product product = await _everaDbContext.Products.FirstOrDefaultAsync(p=>p.Id==id);
-            if (product == null)
-            {
-                return NotFound();
-            }
+            Product? product = await _everaDbContext.Products.FirstOrDefaultAsync(p=>p.Id==id);
+            if (product == null)  return NotFound();
+           
             foreach(var item in _everaDbContext.Images.Where(x=>x.ProductId==id).ToList())
             {
                 _everaDbContext.Images.Remove(item);
