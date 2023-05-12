@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IDRW1oxJ/aYgDSh5HQZOx9McV1MSih5pPUcoQEKF/pE=",
+  "Hash": "OMT20Wo/ke0mfBou3s0ip1x7227bViwXSUrDcwVwNjM=",
   "Source": "EveraWebApp",
   "BasePath": "_content/EveraWebApp",
   "Mode": "Default",
@@ -33082,6 +33082,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\shop\\5cca8080-4288-4670-933e-644e1f8dfc85f5a6cb847415ba91c854c1c90732fe53.jpg"
     },
     {
+      "Identity": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\wwwroot\\assets\\imgs\\shop\\613c1f63-229a-499b-a33e-6f883867bf0e10c1b80e-a8d0-4ac2-8dd0-308af1866a66.jfif",
+      "SourceId": "EveraWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\wwwroot\\",
+      "BasePath": "_content/EveraWebApp",
+      "RelativePath": "assets/imgs/shop/613c1f63-229a-499b-a33e-6f883867bf0e10c1b80e-a8d0-4ac2-8dd0-308af1866a66.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\shop\\613c1f63-229a-499b-a33e-6f883867bf0e10c1b80e-a8d0-4ac2-8dd0-308af1866a66.jfif"
+    },
+    {
       "Identity": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\wwwroot\\assets\\imgs\\shop\\67a9dbc3-3dfa-4dad-85b2-c13e3585cae32fd00fb41941fb99607d30ef1014b9d6.jpg",
       "SourceId": "EveraWebApp",
       "SourceType": "Discovered",
@@ -33233,6 +33250,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\imgs\\shop\\a2051027-b8d6-41ed-8c2d-e4a4bd8496d92fd00fb41941fb99607d30ef1014b9d6.jpg"
+    },
+    {
+      "Identity": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\wwwroot\\assets\\imgs\\shop\\abca602b-ba77-4a53-aa7a-913229fad05eScreenshot (293).png",
+      "SourceId": "EveraWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\wwwroot\\",
+      "BasePath": "_content/EveraWebApp",
+      "RelativePath": "assets/imgs/shop/abca602b-ba77-4a53-aa7a-913229fad05eScreenshot (293).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\imgs\\shop\\abca602b-ba77-4a53-aa7a-913229fad05eScreenshot (293).png"
     },
     {
       "Identity": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\wwwroot\\assets\\imgs\\shop\\b06f6df4-5789-4f39-958e-d2b6cc1b2dd60ee0fa133f8cff513ac34c1f5110df58.jpg",

@@ -23,7 +23,6 @@ namespace EveraWebApp.Areas.Admin.Controllers
             List<GetProductVM> getProductVMs = new List<GetProductVM>();
             foreach (Product product in products)
             {
-                
                 getProductVMs.Add(new GetProductVM()
                 {
                     Name = product.Name,
@@ -51,10 +50,7 @@ namespace EveraWebApp.Areas.Admin.Controllers
                 ViewData["catagories"] = catagories;
                 return View();
             }
-            else
-            {
-                ViewData["catagories"] = catagories;
-            }
+           
             Product product=new Product()
             {
                 Name = newProduct.Name,
