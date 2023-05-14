@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j3EVtRVmdMDDS+f3nGB8CGtwsaN61aV/k+BBf15TpsbVAXywvs3IwQeMSreGOb1Oo/W+9NoQqI+/m5sSWo9tsQ==",
+  "dgSpecHash": "b8jgU+FbWCXmLp/8BnqXjs4TI2DOsW5LpIqfO5blndhakz2FgPejQ8ciKKVuhKRm1/0WQMFqMBj1DlrKi+eGxw==",
   "success": true,
-  "projectFilePath": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
+  "projectFilePath": "D:\\desktop\\programs\\C#\\ASP.NET Core MVC\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

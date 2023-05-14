@@ -10024,11 +10024,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
+      "projectUniqueName": "D:\\desktop\\programs\\C#\\ASP.NET Core MVC\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
       "projectName": "EveraWebApp",
-      "projectPath": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
+      "projectPath": "D:\\desktop\\programs\\C#\\ASP.NET Core MVC\\EveraWebApp\\EveraWebApp\\EveraWebApp.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\desktop\\programs\\C#\\ASP.NET Core\\EveraWebApp\\EveraWebApp\\obj\\",
+      "outputPath": "D:\\desktop\\programs\\C#\\ASP.NET Core MVC\\EveraWebApp\\EveraWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

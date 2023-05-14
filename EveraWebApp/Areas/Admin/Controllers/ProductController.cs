@@ -119,7 +119,7 @@ namespace EveraWebApp.Areas.Admin.Controllers
                 Description=product.Description,
                 Price=product.Price,
                 CatagoryId=product.CatagoryId,
-               OldImages = product.Images
+                OldImages = product.Images
             };
             List<Catagory> catagories =await _everaDbContext.Catagories.ToListAsync();
             ViewData["catagories"]=catagories;
