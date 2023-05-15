@@ -1,4 +1,5 @@
-﻿
+﻿@*@model CartVM
+*@
 @model Dictionary<string,Setting>
 <header class="header-area header-style-1 header-height-2">
         <div class="header-top header-top-ptb-1 d-none d-lg-block">
@@ -75,36 +76,27 @@
                                     </a>
                                 </div>
                                 <div class="header-action-icon-2">
-                                    <a class="mini-cart-icon" href="shop-cart.html">
+                                    <a class="mini-cart-icon" asp-action="AddCart" asp-controller="Product">
                                         <img alt="Evara" src="~/assets/imgs/theme/icons/icon-cart.svg">
-                                        <span class="pro-count blue">2</span>
+                                        <span class="pro-count blue"></span>
                                     </a>
                                     <div class="cart-dropdown-wrap cart-dropdown-hm2">
                                         <ul>
+                                       @* @foreach(var item in Model)
+                                        {
                                             <li>
                                                 <div class="shopping-cart-img">
                                                     <a href="shop-product-right.html"><img alt="Evara" src="~/assets/imgs/shop/thumbnail-3.jpg"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
                                                     <h4><a href="shop-product-right.html">Daisy Casual Bag</a></h4>
-                                                    <h4><span>1 × </span>$800.00</h4>
+                                                    <h4><span>@item.Count × </span>$800.00</h4>
                                                 </div>
                                                 <div class="shopping-cart-delete">
                                                     <a href="#"><i class="fi-rs-cross-small"></i></a>
                                                 </div>
                                             </li>
-                                            <li>
-                                                <div class="shopping-cart-img">
-                                                    <a href="shop-product-right.html"><img alt="Evara" src="~/assets/imgs/shop/thumbnail-2.jpg"></a>
-                                                </div>
-                                                <div class="shopping-cart-title">
-                                                    <h4><a href="shop-product-right.html">Corduroy Shirts</a></h4>
-                                                    <h4><span>1 × </span>$3200.00</h4>
-                                                </div>
-                                                <div class="shopping-cart-delete">
-                                                    <a href="#"><i class="fi-rs-cross-small"></i></a>
-                                                </div>
-                                            </li>
+                                        }*@
                                         </ul>
                                         <div class="shopping-cart-footer">
                                             <div class="shopping-cart-total">

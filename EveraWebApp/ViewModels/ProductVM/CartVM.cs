@@ -1,4 +1,6 @@
-﻿namespace EveraWebApp.ViewModels.ProductVM
+﻿using EveraWebApp.Models;
+
+namespace EveraWebApp.ViewModels.ProductVM
 {
     public class CartVM
     {

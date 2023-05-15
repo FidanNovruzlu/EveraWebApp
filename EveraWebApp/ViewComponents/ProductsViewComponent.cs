@@ -14,7 +14,7 @@ namespace EveraWebApp.ViewComponents
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-           List<Product> products =await _context.Products.Include(p=>p.Images).ToListAsync();
+            List<Product> products =await _context.Products.Include(p=>p.Images).ToListAsync();
             return View(products);
         }
     }
