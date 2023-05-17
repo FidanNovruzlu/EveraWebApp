@@ -2,6 +2,7 @@
 using EveraWebApp.Models;
 using EveraWebApp.ViewModels.ProductVM;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Text.Json;
 
@@ -14,48 +15,52 @@ namespace EveraWebApp.Controllers
         {
             _context= everaDbContext;
         }
-        public async Task< IActionResult> AddCart(int id)
+        
+       
+        public IActionResult AddCart(int id)
         {
-            Product? product=await _context.Products.FindAsync(id);
+            Product? product = _context.Products.Include(x=>x.Catagory).Include(x=>x.Images).FirstOrDefault(x=> x.Id==id);
             if (product == null) return NotFound();
+
             string? value = HttpContext.Request.Cookies["basket"];
 
-            List<CartVM> cartsCookie = new List<CartVM>();
+            List<CartVM> cartVms = new List<CartVM>();
             if (value == null)
             {
-                HttpContext.Response.Cookies.Append("basket", JsonSerializer.Serialize(cartsCookie));
+                HttpContext.Response.Cookies.Append("basket", JsonSerializer.Serialize(cartVms));
             }
             else
             {
-                cartsCookie = JsonSerializer.Deserialize < List<CartVM>>(value);
+                cartVms = JsonSerializer.Deserialize<List<CartVM>>(value);
             }
-            CartVM? cart= cartsCookie.Find(c=>c.Id==id);
-            if (cart == null)
+            CartVM? oldCart = cartVms.FirstOrDefault(c => c.Id == id);
+            if (oldCart == null)
             {
-                cartsCookie.Add(new CartVM()
+                cartVms.Add(new CartVM()
                 {
                     Id = id,
-                    Count = 1
-                }) ;
+                    Count = 1,
+                    Name=product.Name,
+                    Price  =(double)product.Price,
+                    ImageUrl=product.Images.FirstOrDefault().ImageName,
+                    CategoryName=product.Catagory.Name
+                });
             }
             else
             {
-                cart.Count += 1;
+                oldCart.Count += 1;
             }
-            HttpContext.Response.Cookies.Append("basket", JsonSerializer.Serialize(cartsCookie));
+            HttpContext.Response.Cookies.Append("basket", JsonSerializer.Serialize(cartVms),new CookieOptions{
+                MaxAge=TimeSpan.FromMinutes(10)
+            });
             return RedirectToAction("Index","Home");
         }
-        public async Task< IActionResult> GetCarts()
+        public  IActionResult GetCarts()
         {
-            string? value = HttpContext.Request.Cookies["basket"];
+            string value = HttpContext.Request.Cookies["basket"];
             List<CartVM> cartVM = JsonSerializer.Deserialize<List<CartVM>>(value);
-            List<Product> products = new List<Product>();
-            foreach (var item in cartVM)
-            {
-                Product product = await _context.Products.FindAsync(item.Id);
-                products.Add(product);
-            }
-            return View(products);
+           
+            return View(cartVM);
         }
     }
 }

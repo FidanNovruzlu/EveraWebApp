@@ -116,6 +116,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/desktop/programs/C\#/ASP.NET Core MVC/EveraWebApp/EveraWebApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/desktop/programs/C\#/ASP.NET Core MVC/EveraWebApp/EveraWebApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/desktop/programs/C\#/ASP.NET Core MVC/EveraWebApp/EveraWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -128,8 +136,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/desktop/programs/C\#/ASP.NET Core MVC/EveraWebApp/EveraWebApp/Views/Product/AddCart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRDYXJ0LmNzaHRtbA==
+[D:/desktop/programs/C\#/ASP.NET Core MVC/EveraWebApp/EveraWebApp/Views/Product/GetCarts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRDYXJ0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/desktop/programs/C\#/ASP.NET Core MVC/EveraWebApp/EveraWebApp/Views/Shared/Components/Footer/Default.cshtml]

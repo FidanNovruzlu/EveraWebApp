@@ -1,11 +1,13 @@
 ﻿using EveraWebApp.DataContext;
 using EveraWebApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace EveraWebApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class CatagoryController : Controller
     {
         private readonly EveraDbContext _everaDbContext;

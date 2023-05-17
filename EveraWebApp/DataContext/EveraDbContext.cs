@@ -1,9 +1,10 @@
 ﻿using EveraWebApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace EveraWebApp.DataContext
 {
-    public class EveraDbContext : DbContext
+    public class EveraDbContext :IdentityDbContext<AppUser>
     {
         public EveraDbContext(DbContextOptions<EveraDbContext> options) : base(options)
         {

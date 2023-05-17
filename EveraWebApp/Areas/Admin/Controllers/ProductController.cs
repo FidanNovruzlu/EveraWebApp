@@ -154,7 +154,8 @@ namespace EveraWebApp.Areas.Admin.Controllers
                 {
                     await item.CopyToAsync(fileStream);
                 }
-                images.Add(new Image(){
+                images.Add(new Image()
+                {
                     ImageName= newFilename
                 });
             }

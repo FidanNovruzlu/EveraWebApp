@@ -1,10 +1,22 @@
 using EveraWebApp.DataContext;
+using EveraWebApp.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequireDigit= true;
+    opt.Password.RequireLowercase= false;
+    opt.Password.RequireUppercase= true;
+    opt.Password.RequiredLength= 8;
+    opt.Password.RequiredUniqueChars= 3;
+    opt.Password.RequireNonAlphanumeric= false;
+
+    opt.User.RequireUniqueEmail= true;
+}).AddDefaultTokenProviders().AddEntityFrameworkStores<EveraDbContext>();
 
 builder.Services.AddDbContext<EveraDbContext>(opt =>
 {
@@ -25,8 +37,11 @@ app.UseSession();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+
 app.UseRouting();
 
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

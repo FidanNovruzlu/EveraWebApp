@@ -811,3 +811,8 @@ D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\obj\Debug\net6.0
 D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\obj\Debug\net6.0\EveraWebApp.pdb
 D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\obj\Debug\net6.0\EveraWebApp.genruntimeconfig.cache
 D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\obj\Debug\net6.0\ref\EveraWebApp.dll
+D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\desktop\programs\C#\ASP.NET Core MVC\EveraWebApp\EveraWebApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
